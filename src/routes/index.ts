@@ -1,7 +1,7 @@
-import contact from './contact/contact';
+import report from './report/report';
 import status from './status';
 
 export default (app) => {
-  app.use('/contact', contact);
+  app.use('/report', report);
   app.use('/status', status);
 };
